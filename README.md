@@ -24,8 +24,7 @@ Free Code Camp project from Advanced Front End Development projects
 2. I can pick a nickname in game and 'x' or 'o'
 3. I can restart the game
 4. I can see who many victories I have
-5. If I lose I or my opponent can take a revenge
-6. If a draw the score board doesn't change
+5. If I or my opponent lose he can take a revenge
 
 
 ### Technologies Used:
