@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>TicTacToe</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="./favicon.ico">
+		<link rel="stylesheet" href="assets/css/main.min.css">
+		<link rel="stylesheet" href="assets/css/vendor.min.css">
+		<script src="assets/js/vendor.min.js"></script>
+		<script src="assets/js/main.min.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div class="left-notif"><span></span></div>
+			<div class="outer">
+				<div class="score-board">
+					<div class="row">
+						<div class="col-xs-3">
+						<span class="player1-name">
+						</span></br>
+							<span class="player1-victories">
+						</span>
+						</div>
+						<div class="col-xs-3 pull-left">
+						<span class="player2-name">
+						</span></br>
+							<span class="player2-victories">
+						</span>
+						</div>
+						<div class="col-xs-6 pull-left">
+							<input class="btn btn-default restart" type="button" value="Restart game">
+						</div>
+					</div>
+				</div>
+				<div class="inner">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+					</div>
+				</div>
+				<div class="info"></div>
+				<div class="select-players" style="display: none;">
+					<h2>How do you want to play?</h2>
+					<input class="btn btn-default" type="button" value="One player">
+					<input class="btn btn-default" type="button" value="Two players">
+				</div>
+				<div class="choose-name" style="display: none;">
+					<div class="row">
+						<div class="col-xs-12">
+							<h3>Player1 enter your name: </h3>
+						</div>
+						<div class="col-xs-4">
+							<input type='text' placeholder='Enter your name' id='name'/>
+						</div>
+					</div>
+				</div>
+				<div class="choose-state" style="display: none;">
+					<h3>Would you like to be "x" or "o"?</h3>
+					<input class="btn btn-default" type="button" value="x">
+					<input class="btn btn-default" type="button" value="o">
+				</div>
+			</div>
+			<div class="right-notif"><span></span></div>
+		</div>
+		</div>
+	</body>
+</html>
