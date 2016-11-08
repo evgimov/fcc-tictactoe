@@ -33,4 +33,4 @@ Free Code Camp project from Advanced Front End Development projects
 + Sass
 
 ### Live Demo
-Soon
+http://codepen.io/evgG/pen/amJgWp
